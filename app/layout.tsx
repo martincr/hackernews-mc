@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} bg-[#f6f6ef] text-sm text-black antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} font-sans bg-[#f6f6ef] text-sm text-black antialiased`}
       >
         <div className="max-w-3xl mx-auto">
           <header className="bg-[#ff6600] px-2 py-1 flex items-center gap-2">
